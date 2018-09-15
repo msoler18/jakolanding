@@ -303,6 +303,50 @@ ul#ms-audience li i{
 /*------------------------------------*\
       BEGIN Max Width
   \*------------------------------------*/
+    @media only screen and (max-width: 1400px) {
+      
+    }
+
+    @media only screen and (max-width: 1280px) {
+      #ms-header-title{
+        top:320px;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+     #ms-image-header img{
+      right: 100px 
+     } 
+     
+     #ms-notice{
+      top: 60px;
+      left: 200px;
+     } 
+     
+     .ms-bird-animated-1{
+      top: -180px;
+      left: -190px;
+     }
+
+     #ms-header-title{
+      top:300px;
+     } 
+
+     .ms-display-calling-image{
+      width: 46%;
+     }
+
+     .ms-large-p{
+      font-size: 17px;
+     }
+
+     #image-download{
+      width: 400px;
+      top: 140px;
+      right: -80px;
+     }
+    }
+
     @media only screen and (max-width: 736px) {
       #ms-header-title{
         top:-420px;
