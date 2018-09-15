@@ -339,6 +339,60 @@ ul#ms-audience li i{
         left: -100px;
         top:-30px;
       }
+
+      .ms-general-padding{
+        padding: 70px;
+      }
+
+      #ms-circle-meeting img{
+        width: 60px;
+        top: -30px;
+        right: -7px;
+      }
+      
+      #second-image-callind{
+        float: initial;
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .ms-display-calling-image{
+        float: initial;
+        width: 100%;
+      }
+
+      #logo-videoconference-meeting{
+        left: 20px;
+      }
+
+      .ms-display-calling-menu img{
+        width: 100%;
+      }
+      
+      #ms-right-column-second-section{
+        padding: 0;
+      }
+
+      #ms-title-second-section{
+        font-size: 20px;
+        text-align: center;
+      }
+
+      #ms-display-calling{
+        height: 330px;
+      }
+
+      .subtitle{
+        display: inherit;
+        text-align: center;
+      }
+
+      ul#ms-audience li{
+        text-align: center;
+      }
+
+
+
     }
 
   /*------------------------------------*\
