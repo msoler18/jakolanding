@@ -1,7 +1,10 @@
 #header-section{
-  padding: 130px 70px;
   background: url('../img/background_header.png')no-repeat center top;
   background-size:cover;
+}
+
+.ms-general-padding{
+  padding: 130px 70px;
 }
 
 .ms-logo-jako{
@@ -86,3 +89,54 @@
   bottom: 10px;
   right: -190px;
 }
+
+#ms-second-section{
+  background-color:#EEEEEE;
+}
+
+#ms-display-calling{
+  float: left;
+  width: 100%;
+  padding: 60px 20px;
+  background: white;
+  border:5px solid #DDDDDD;
+  border-radius:7px;
+}
+
+.ms-display-calling-image{
+  float: left;
+  width: 48%;
+  opacity: 0.5;
+  transition: 2s ease;
+}
+
+.ms-display-calling-image:hover{
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+#second-image-callind{
+  margin-left: 20px;
+}
+
+.ms-display-calling-image img{
+  width: 100%;
+}
+
+#ms-display-calling-menu{
+  clear: both;
+}
+
+.ms-display-calling-menu img{
+    width: 50%;
+    margin: 0 auto;
+    display: table;
+}
+
+#logo-videoconference-meeting{
+  position: relative;
+  top: 30px;
+  width: 100px;
+}
+
+
