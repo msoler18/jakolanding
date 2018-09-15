@@ -40,3 +40,7 @@
   /* Animated two largest bird */
   let tl5 = new TimelineMax({repeat:30, repeatDelay:-1});
   tl5.to(".ms-bird-animated-2", 200, {x: -900,y:400,skewX: 10,skewY: 10});
+
+  /* Animated Feather apoya */
+  let tl6 = new TimelineMax({repeat:30, repeatDelay:-1});
+  tl6.to("#last-feather", 100, {x: -900,y:400,skewX: 10,skewY: 10});
