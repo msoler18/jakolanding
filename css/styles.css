@@ -1,0 +1,38 @@
+#header-section{
+  padding: 130px 70px;
+  background: url('../img/background_header.png')no-repeat center top;
+  background-size:cover;
+}
+
+.ms-logo-jako{
+  position: relative;
+  bottom:60px;
+}
+
+.ms-logo-jako img{
+  width: 130px;
+}
+
+#ms-notice{
+  width: 400px;
+  height: auto;
+  background: #26303F;
+  border-radius: 50px;
+  padding: 2px 20px;
+}
+
+#ms-content-notice{
+ color:white;
+ margin-left:10px;
+}
+
+#ms-notice-title{
+  width: 40px;
+  height: auto;
+  background:white;
+  color:#26303F!important;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 0 7px;
+  font-weight: bold;
+}
