@@ -303,6 +303,104 @@ ul#ms-audience li i{
 /*------------------------------------*\
       BEGIN Max Width
   \*------------------------------------*/
+    @media only screen and (max-width: 736px) {
+      #ms-header-title{
+        top:-420px;
+        left: 12px;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      #ms-image-header img{
+        width: 100%;
+        top: 250px;  
+      }
+
+      #ms-notice{
+        top:140px;
+        left:50px;
+      }
+
+      .ms-bird-animated-1{
+        right: 100px;
+      }
+
+      .ms-display-calling-image{
+         width: 47%; 
+      }
+      
+      #ms-title-second-section{
+        font-size: 20px;
+      } 
+      
+      #ms-right-column-second-section{
+        padding:0;
+      }
+
+      .ms-large-p{
+        font-size: 17px;
+      }
+
+      #ms-image-third-section{
+        position: relative;
+        bottom: 30px;
+        right: -160px;
+      }
+
+      #download-title{
+        text-align: center;
+        left:10px;
+      }
+
+      #google-play-logo,#apple-store-logo{
+        top:240px;
+        left: 120px;
+        margin:10px;
+      }
+
+      #image-download{
+       width: 240px;
+       left: 150px;
+       top: -200px;
+      }
+
+      #ms-five-section h2{
+        text-align: center;
+      }
+
+      .logo-patrocinadores{
+        width: 90%;
+      }
+
+      #mintic{
+        left: 20px;
+        top:10px;
+      }
+
+      #colciencias{
+        left:20px;
+        top:10px;
+      }
+      
+      #rounded-img{
+        width: 60px;
+        margin-top:10px;
+      }
+
+      #ms-five-section p{
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #ms-container-img-five-section img{
+        width: 60%;
+      }
+
+      .logo-patrocinadores{
+        width: 40%;
+      }
+      
+    }
 
     
     @media only screen and (max-width: 480px) {
