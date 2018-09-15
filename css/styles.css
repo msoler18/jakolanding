@@ -306,10 +306,39 @@ ul#ms-audience li i{
 
     
     @media only screen and (max-width: 480px) {
-      #ms-header-title{
-        color:red!important;
+      #header-section{
+        background-size: contain;
       }
       
+      #ms-image-header img{
+       width: 350px; 
+      }
+
+      .ms-logo-jako img{
+        position: relative;
+        top: 120px;
+        left: 32px;
+      }
+
+      #ms-notice{
+        display: none;
+      }
+
+      #ms-header-title{
+        top:60px;
+        left: 12px;
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      .ms-bird-animated-1 img{
+        width: 100px;
+      }
+
+      .ms-bird-animated-1{
+        left: -100px;
+        top:-30px;
+      }
     }
 
   /*------------------------------------*\
