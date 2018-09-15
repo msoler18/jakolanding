@@ -391,6 +391,105 @@ ul#ms-audience li i{
         text-align: center;
       }
 
+      #video-container iframe{
+        width: 260px;
+        position: absolute;
+        height: 200px;
+        left: -9px;
+        top: 160px;
+      }
+    
+      #ms-third-section h2{
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .ms-large-p{
+        font-size: 15px;
+        text-align: center;
+      }
+
+      #ms-third-section h3{
+        text-align: center;
+        font-size:16px;
+      }
+
+      #check-list-work li{
+        font-size: 14px;
+      }
+
+      #ms-image-third-section{
+        position: relative;
+        bottom: 100px;
+        right: -140px;
+      }
+      
+
+      .ms-bird-animated-2 img{
+        width: 100px;
+      }
+      
+      #ms-container-img-four-section img{
+        width: 300px;
+      }
+
+      #ms-four-section h2{
+        text-align: center;
+      }
+    
+      #download-title{
+        text-align: center;
+        left:10px;
+      }
+
+      #google-play-logo,#apple-store-logo{
+        top:300px;
+        left: 10px;
+        width: 100%;
+        margin:10px 0;
+      }
+
+      #image-download{
+       width: 240px;
+       right: 4px;
+       top: -120px;
+      }
+
+      #ms-five-section h2{
+        text-align: center;
+      }
+
+      .logo-patrocinadores{
+        width: 100%;
+      }
+
+      #mintic{
+        left: 3px;
+        top:10px;
+      }
+
+      #colciencias{
+        left:4px;
+        top:10px;
+      }
+      
+      #rounded-img{
+        width: 60px;
+        margin-top:10px;
+      }
+
+      #ms-five-section p{
+        text-align: center;
+        font-weight: bold;
+      }
+
+      
+      
+
+
+
+
+
 
 
     }
