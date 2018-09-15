@@ -2,6 +2,10 @@ h1,h2,h3,h4,h5,h6{
   color: #495C78;
 }
 
+body{
+  font-size: 17px;
+}
+
 #header-section{
   background: url('../img/background_header.png')no-repeat center top;
   background-size:cover;
@@ -292,58 +296,20 @@ ul#ms-audience li i{
 /* Begin responsive */
 /*------------------------------------*\
       BEGIN Min Width
-  \*------------------------------------*/
-    @media only screen  and (min-width : 1824px) {
-      
-    }
-
-    @media only screen  and (min-width : 1280px) {
-
-    }
-
-    @media only screen  and (min-width : 992px) {
-      
-    }
-
-    @media only screen  and (min-width : 736px) {
-      
-    }
-
-    @media only screen  and (min-width : 480px) {
-      
-    }
+  \*------------------------------------*
   /*------------------------------------*\
       END Min Width
   \*------------------------------------*/
 /*------------------------------------*\
       BEGIN Max Width
   \*------------------------------------*/
-    @media only screen and (max-width: 1400px) {
 
-
-    }
-
-    @media only screen and (max-width: 1280px) {
-
-
-    }
-    
-    @media only screen and (max-width: 992px) {
-
-
-      
-    }
-    
-    @media only screen and (max-width: 736px) {
-
-
-    }
     
     @media only screen and (max-width: 480px) {
-     #ms-header-title{
-      color:red;
-     } 
-  
+      #ms-header-title{
+        color:red!important;
+      }
+      
     }
 
   /*------------------------------------*\
