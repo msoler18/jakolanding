@@ -19,7 +19,14 @@
   background: #26303F;
   border-radius: 50px;
   padding: 2px 20px;
+  position: relative;
+  left: 300px;
+  bottom: -340px;
+  box-shadow: -webkit-box-shadow: -1px 4px 64px 4px rgba(138,138,138,1);
+    -moz-box-shadow: -1px 4px 64px 4px rgba(138,138,138,1);
+    box-shadow: -1px 4px 64px 4px rgba(138,138,138,1);
 }
+
 
 #ms-content-notice{
  color:white;
@@ -35,4 +42,47 @@
   border-radius: 50px;
   padding: 0 7px;
   font-weight: bold;
+}
+
+#ms-image-header{
+  width: 100%;
+}
+
+#ms-image-header img{
+  position: relative;
+  top: 100px;
+  right: 50px;
+  width: 600px;
+}
+
+#ms-header-title{
+  position: relative;
+  top: 420px;
+  color: #495C78;
+  letter-spacing: 0.2em;
+  text-align: right;
+  font-weight: bold;
+}
+
+.ms-feather-animated-1{
+  position: absolute;
+  top: 0;
+  left: 230px;
+}
+
+.ms-feather-animated-2{
+  position: absolute;
+  left: -90px;
+}
+
+.ms-feather-animated-3{
+  position: absolute;
+  top: 160px;
+  right: 120px;
+}
+
+.ms-bird-animated-1{
+  position: absolute;
+  bottom: 10px;
+  right: -190px;
 }
