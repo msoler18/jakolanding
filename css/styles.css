@@ -168,5 +168,43 @@ ul#ms-audience li i{
   padding: 80px 0;
 }
 
+.ms-large-p{
+  font-size:20px;
+  color:#777777;
+}
+
+#check-list-work{
+  list-style-type: none;
+  padding: 0;
+}
+
+#ms-image-third-section img{
+  width: 100%;
+}
+
+#video-section{
+  background: url('../img/background_second_section.png')no-repeat center top;
+  background-size:cover;
+}
+
+#video-container{
+  text-align: center;
+  margin:0 auto;
+  display: table;
+}
+
+#video-container h2{
+  margin-bottom: 40px;
+}
+
+#video-container iframe{
+  border:9px solid #DDDDDD;
+  -webkit-box-shadow: -1px -3px 64px 4px rgba(160,191,186,1);
+  -moz-box-shadow: -1px -3px 64px 4px rgba(160,191,186,1);
+  box-shadow: -1px -3px 64px 4px rgba(160,191,186,1);
+}
+
+
+
 
 
