@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6{
+  color: #495C78;
+}
+
 #header-section{
   background: url('../img/background_header.png')no-repeat center top;
   background-size:cover;
@@ -138,5 +142,31 @@
   top: 30px;
   width: 100px;
 }
+
+.subtitle{
+  color:#4f4fd6;
+  font-weight: bold;
+  font-size:19px;
+  letter-spacing: 0.2em;
+}
+
+ul#ms-audience{
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#ms-audience li{
+  color:gray;
+  font-size:17px;
+}
+
+ul#ms-audience li i{
+  margin-right: 10px;
+}
+
+#ms-right-column-second-section{
+  padding: 80px 0;
+}
+
 
 
