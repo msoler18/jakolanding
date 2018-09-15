@@ -273,3 +273,17 @@ ul#ms-audience li i{
   left: 140px;
   top: 30px;
 }
+
+#ms-square-meeting img{
+  width: 70px;
+  position: absolute;
+  top: 416px;
+  left:18px;
+}
+
+#ms-circle-meeting img{
+  width: 150px;
+  position: absolute;
+  top: -70px;
+  right: -60px;
+}
