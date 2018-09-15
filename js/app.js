@@ -1,5 +1,4 @@
 
-
   $(".main").onepage_scroll({
      sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
      easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -17,3 +16,27 @@
      direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
   });
 
+
+  /* Animate Logo */
+  TweenMax.from(".ms-logo-jako",3,{x:300,opacity:0,scale:0.5});
+
+  /* Animated one feather */
+  let tl = new TimelineMax({repeat:30, repeatDelay:1});
+  tl.to(".ms-feather-animated-1", 10, {skewX: 45,rotation: 360});
+
+  /* Animated Header Largest Bird */
+  let tl2 = new TimelineMax({repeatDelay:1});
+  tl2.to(".ms-bird-animated-1", 90 ,{x: 600,y:-100,yPercent: 50,skewX: 10,skewY: 10});
+
+  /* Little Bird Two Header */
+  let tl3 = new TimelineMax({repeat:30, repeatDelay:1});
+  tl3.to(".ms-feather-animated-3", 10, {rotation:40});
+
+  /* Animated two feather */
+  let tl4 = new TimelineMax({repeat:30, repeatDelay:1});
+  tl4.to(".ms-feather-animated-2", 40, {rotation:80,y:30,x:300});
+
+
+  /* Animated two largest bird */
+  let tl5 = new TimelineMax({repeat:30, repeatDelay:-1});
+  tl5.to(".ms-bird-animated-2", 200, {x: -900,y:400,skewX: 10,skewY: 10});
