@@ -215,8 +215,48 @@ ul#ms-audience li i{
 }
 
 
+#ms-container-img-five-section img{
+  width: 100%;
+}
 
+.logo-patrocinadores{
+  max-width: 350px;
+}
 
+#rounded-img{
+  width: 130px;
+  border-radius: 50%;
+  display: block;
+  margin:0 auto;
+}
 
+#download-app{
+  background: url('../img/background_third_section.png')no-repeat center top;
+  background-size:cover;
+}
 
+.download-logos{
+  max-width: 300px;
+}
 
+#image-download{
+  position: relative;
+  right: 53px;
+}
+
+#download-title{
+  position: relative;
+  left: 220px;
+  margin-bottom: 50px;
+}
+
+#google-play-logo{
+  position: relative;
+  left: 200px;
+}
+
+#apple-store-logo{
+  position: relative;
+  top: 120px;
+  left: -30px;
+}
