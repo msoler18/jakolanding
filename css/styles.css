@@ -94,6 +94,12 @@ h1,h2,h3,h4,h5,h6{
   right: -190px;
 }
 
+.ms-bird-animated-2{
+  position: absolute;
+  top: 100px;
+  right: -400px;
+}
+
 #ms-second-section{
   background-color:#EEEEEE;
 }
@@ -203,6 +209,12 @@ ul#ms-audience li i{
   -moz-box-shadow: -1px -3px 64px 4px rgba(160,191,186,1);
   box-shadow: -1px -3px 64px 4px rgba(160,191,186,1);
 }
+
+#ms-container-img-four-section img{
+  width: 100%;
+}
+
+
 
 
 
