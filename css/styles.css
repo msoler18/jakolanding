@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6{
+;h1,h2,h3,h4,h5,h6{
   color: #495C78;
 }
 
@@ -294,24 +294,28 @@ ul#ms-audience li i{
 
 
 /* Begin responsive */
-/*------------------------------------*\
+
+  /*------------------------------------*\
+      BEGIN Intervals
+  \*------------------------------------*/
+  @media only screen and (min-width: 1180px) and (max-width: 1400px){
+    #ms-header-title{top:360px;}
+    #rounded-img{width: 120px;}
+  }
+
+  /*------------------------------------*\
+      END Intervals
+  \*------------------------------------*/
+
+  /*------------------------------------*\
       BEGIN Min Width
-  \*------------------------------------*
+  \*------------------------------------*/
   /*------------------------------------*\
       END Min Width
   \*------------------------------------*/
 /*------------------------------------*\
       BEGIN Max Width
   \*------------------------------------*/
-    @media only screen and (max-width: 1400px) {
-
-    }
-
-    @media only screen and (max-width: 1280px) {
-      #ms-header-title{
-        top:320px;
-      }
-    }
 
     @media only screen and (max-width: 992px) {
      #ms-image-header img{
@@ -504,11 +508,19 @@ ul#ms-audience li i{
       }
 
       #logo-videoconference-meeting{
-        left: 20px;
+        left: 60px;
+      }
+
+      
+
+      .ms-display-calling-image img{
+        width: 70%;
+        margin: 0 auto;
+        display: table;
       }
 
       .ms-display-calling-menu img{
-        width: 100%;
+        width: 70%;
       }
       
       #ms-right-column-second-section{
@@ -522,6 +534,7 @@ ul#ms-audience li i{
 
       #ms-display-calling{
         height: 330px;
+        padding: 30px;
       }
 
       .subtitle{
@@ -537,7 +550,7 @@ ul#ms-audience li i{
         width: 260px;
         position: absolute;
         height: 200px;
-        left: -9px;
+        left: 40px;
         top: 160px;
       }
     
@@ -593,7 +606,7 @@ ul#ms-audience li i{
 
       #image-download{
        width: 240px;
-       right: 4px;
+       left:40px;
        top: -120px;
       }
 
@@ -626,11 +639,10 @@ ul#ms-audience li i{
       }
 
       
-      
-
-
-
-
+      @media only screen and (max-width: 360px) {
+        #ms-header-title{top:-120px;}
+        #image-download{left:-20px;}
+      }  
 
 
 
